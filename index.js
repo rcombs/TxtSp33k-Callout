@@ -42,5 +42,3 @@ twit.stream('statuses/filter', {"follow": userList.join(",")}, function(stream){
 		console.error(err);
 	});
 });
-
-process.stdin.resume();
